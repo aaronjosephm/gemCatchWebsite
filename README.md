@@ -4,6 +4,8 @@ The public marketing and privacy website for the Gem Catch mobile game. This
 project is intentionally independent from the Unity game repository and uses
 plain HTML, CSS, and JavaScript with no build step or runtime dependencies.
 
+**Production:** <https://aaronjosephm.github.io/gemCatchWebsite/>
+
 ## Local preview
 
 From this folder, run:
@@ -39,11 +41,9 @@ closely matches GitHub Pages path handling.
 
 Search the project for `OWNER_TODO` and replace the related placeholder values:
 
-1. The final public URL in canonical, Open Graph URL, and sitemap fields. Make
-   the Open Graph and Twitter image paths absolute at the same time.
-2. Verified Google Play and App Store URLs. Replace each disabled store button
+1. Verified Google Play and App Store URLs. Replace each disabled store button
    with an anchor using the real URL; do not use a placeholder `href`.
-3. Final gameplay screenshots in the three preview slots.
+2. Final gameplay screenshots in the three preview slots.
 
 The privacy policy should also be reviewed against the SDKs and settings in the
 exact mobile build submitted to each store.
@@ -55,8 +55,8 @@ exact mobile build submitted to each store.
 2. In the repository, open **Settings > Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**.
 4. Select the default branch and the `/ (root)` folder, then save.
-5. After GitHub publishes the URL, add that absolute URL to the metadata and
-   privacy-policy placeholders listed above.
+5. Confirm the production URL above loads both the landing page and privacy
+   policy.
 
 The site uses relative paths and includes `.nojekyll`, so no GitHub Actions
 workflow or static-site generator is required.

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-# OWNER_TODO: Add the absolute sitemap URL after the public site URL is known.
+Sitemap: https://aaronjosephm.github.io/gemCatchWebsite/sitemap.xml
