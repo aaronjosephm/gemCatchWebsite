@@ -4,7 +4,7 @@ The public marketing and privacy website for the Gem Catch mobile game. This
 project is intentionally independent from the Unity game repository and uses
 plain HTML, CSS, and JavaScript with no build step or runtime dependencies.
 
-**Production:** <https://aaronjosephm.github.io/gemCatchWebsite/>
+**Production:** <https://gemcatch.app/>
 
 ## Local preview
 

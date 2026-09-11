@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aaronjosephm.github.io/gemCatchWebsite/sitemap.xml
+Sitemap: https://gemcatch.app/sitemap.xml
