@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#08184b">
-    <meta name="description" content="Position your catcher, predict every bounce, and build your streak in Gem Catch, a colorful single-player arcade game for mobile.">
+    <meta name="description" content="Steer Catchy through falling rock waves, collect gems and power-ups, and survive with three lives in Gem Catch's fast-paced Rush mode.">
     <meta name="robots" content="index, follow">
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Gem Catch">
-    <meta property="og:title" content="Gem Catch - Position. Predict. Catch.">
-    <meta property="og:description" content="A colorful single-player arcade game about clever positioning, wild bounces, and satisfying streaks.">
+    <meta property="og:title" content="Gem Catch - Dodge. Collect. Survive.">
+    <meta property="og:description" content="Steer through rock waves, collect valuable gems and power-ups, and chase a new high score in Rush mode.">
     <meta property="og:url" content="https://aaronjosephm.github.io/gemCatchWebsite/">
     <meta property="og:image" content="https://aaronjosephm.github.io/gemCatchWebsite/assets/images/social-card.jpg">
     <meta property="og:image:width" content="1200">
@@ -18,11 +18,11 @@
     <meta property="og:image:alt" content="Gem Catch app icon on a deep blue background">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Gem Catch - Position. Predict. Catch.">
-    <meta name="twitter:description" content="A colorful single-player arcade game about clever positioning, wild bounces, and satisfying streaks.">
+    <meta name="twitter:title" content="Gem Catch - Dodge. Collect. Survive.">
+    <meta name="twitter:description" content="Steer through rock waves, collect valuable gems and power-ups, and chase a new high score in Rush mode.">
     <meta name="twitter:image" content="https://aaronjosephm.github.io/gemCatchWebsite/assets/images/social-card.jpg">
 
-    <title>Gem Catch - Position. Predict. Catch.</title>
+    <title>Gem Catch - Dodge. Collect. Survive.</title>
 
     <link rel="canonical" href="https://aaronjosephm.github.io/gemCatchWebsite/">
     <link rel="icon" href="./assets/images/favicon.png" type="image/png">
@@ -61,7 +61,7 @@
 
         <div class="container hero-grid">
           <div class="hero-copy reveal">
-            <p class="eyebrow"><span class="eyebrow-dot"></span> A new arcade challenge is taking shape</p>
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Rush mode is ready to run</p>
             <img
               class="hero-logo"
               src="./assets/images/gem-catch-logo.png"
@@ -70,10 +70,10 @@
               alt="Gem Catch"
             >
             <h1 class="sr-only">Gem Catch</h1>
-            <p class="hero-kicker">Position. Predict. Catch.</p>
+            <p class="hero-kicker">Dodge. Collect. Survive.</p>
             <p class="hero-description">
-              Place your catcher, read the bounce, and keep the streak alive.
-              Every drop is a quick test of instinct and strategy.
+              Hold either side of the screen to steer Catchy. Slip through safe
+              gaps, scoop up gems and pickups, and see how long three lives can last.
             </p>
 
             <div class="store-actions" aria-label="Store availability">
@@ -114,23 +114,27 @@
                 >
                 <div class="concept-hud">
                   <span>SCORE <strong>0240</strong></span>
-                  <span>x3 STREAK</span>
+                  <span>3 LIVES</span>
                 </div>
-                <div class="drop-line" aria-hidden="true"></div>
+                <div class="rock-wave" aria-hidden="true">
+                  <span></span><span></span><span class="rock-gap"></span><span></span>
+                </div>
                 <div class="play-gem" aria-hidden="true"></div>
-                <div class="catcher" aria-hidden="true">
-                  <span></span><span></span>
+                <div class="catchy-character" aria-hidden="true">
+                  <span class="catchy-eye"></span>
+                  <span class="catchy-eye"></span>
+                  <span class="catchy-smile"></span>
                 </div>
                 <div class="concept-label">Concept preview</div>
               </div>
             </div>
             <div class="score-chip score-chip-top" aria-hidden="true">
-              <span>Streak</span>
-              <strong>x5</strong>
+              <span>Lives</span>
+              <strong>3</strong>
             </div>
             <div class="score-chip score-chip-bottom" aria-hidden="true">
-              <span>Golden catch</span>
-              <strong>+5x</strong>
+              <span>Power-up</span>
+              <strong>Shield</strong>
             </div>
           </div>
         </div>
@@ -141,38 +145,38 @@
       <section class="section section-light" id="how-to-play">
         <div class="container">
           <div class="section-heading reveal">
-            <p class="eyebrow eyebrow-dark">Three steps to your next high score</p>
-            <h2>Easy to learn.<br><span>Tricky to master.</span></h2>
+            <p class="eyebrow eyebrow-dark">One touch. Endless Rush.</p>
+            <h2>Move fast.<br><span>Stay in the gap.</span></h2>
             <p>
-              Each drop gives you a moment to choose. Place the catcher, watch
-              the path unfold, and turn a good read into a great streak.
+              Every wave gives you a new route to read. Keep Catchy moving,
+              avoid the rocks, and collect what you can without risking a life.
             </p>
           </div>
 
           <ol class="steps-grid">
             <li class="step-card reveal">
               <span class="step-number">01</span>
-              <div class="step-icon step-icon-place" aria-hidden="true">
+              <div class="step-icon step-icon-steer" aria-hidden="true">
                 <span></span>
               </div>
-              <h3>Pick your position</h3>
-              <p>Tap the play field during the countdown to move your catcher into place.</p>
+              <h3>Hold to steer</h3>
+              <p>Hold the left or right half of the screen to move Catchy continuously.</p>
             </li>
             <li class="step-card featured reveal reveal-delay-short">
               <span class="step-number">02</span>
-              <div class="step-icon step-icon-predict" aria-hidden="true">
+              <div class="step-icon step-icon-dodge" aria-hidden="true">
                 <span></span>
               </div>
-              <h3>Read the bounce</h3>
-              <p>Follow the falling gem as walls and movement reshape its path.</p>
+              <h3>Find the safe gap</h3>
+              <p>Read each falling rock wave and steer through the open corridor.</p>
             </li>
             <li class="step-card reveal reveal-delay">
               <span class="step-number">03</span>
-              <div class="step-icon step-icon-catch" aria-hidden="true">
+              <div class="step-icon step-icon-collect" aria-hidden="true">
                 <span></span>
               </div>
-              <h3>Catch and chain</h3>
-              <p>Land consecutive catches to climb the combo tiers and push your score.</p>
+              <h3>Collect and survive</h3>
+              <p>Grab gems and timed pickups, protect three lives, and chase your high score.</p>
             </li>
           </ol>
         </div>
@@ -181,20 +185,20 @@
       <section class="section features-section" id="features">
         <div class="container">
           <div class="section-heading section-heading-centered reveal">
-            <p class="eyebrow">More than a lucky catch</p>
-            <h2>Every drop can <span>change the run.</span></h2>
-            <p>Smart choices, special gems, and escalating pressure keep each score chase moving.</p>
+            <p class="eyebrow">Rush gets tougher with time</p>
+            <h2>Every wave can <span>change the run.</span></h2>
+            <p>Faster falls, tighter corridors, and longer patterns keep every survival run moving.</p>
           </div>
 
           <div class="feature-grid">
-            <article class="feature-card feature-card-wide feature-combo reveal">
+            <article class="feature-card feature-card-wide feature-rush reveal">
               <div class="feature-copy">
-                <span class="feature-tag">Combo system</span>
-                <h3>Build the streak. Raise the stakes.</h3>
-                <p>Chain catches to climb five multiplier tiers. One miss sends the streak back to the start.</p>
+                <span class="feature-tag">Time-based difficulty</span>
+                <h3>The longer you last, the harder Rush hits.</h3>
+                <p>Falling speed rises, wave patterns grow, and safe corridors narrow as the clock advances.</p>
               </div>
-              <div class="combo-meter" aria-label="Combo multiplier tiers from one to five">
-                <span>x1</span><span>x2</span><span>x3</span><span>x4</span><span class="active">x5</span>
+              <div class="rush-meter" aria-label="Rush difficulty rising over time">
+                <span>Start</span><span>45s</span><span>90s</span><span class="active">135s</span>
               </div>
             </article>
 
@@ -202,30 +206,31 @@
               <div class="feature-gems" aria-hidden="true">
                 <span class="mini-gem mini-gem-gold"></span>
                 <span class="mini-heart"></span>
-                <span class="mini-bomb"></span>
+                <span class="mini-rock"></span>
               </div>
-              <span class="feature-tag">Special drops</span>
-              <h3>Know what to catch</h3>
-              <p>Golden gems boost points, hearts add a life, and bombs are best left alone.</p>
+              <span class="feature-tag">Rewards and hazards</span>
+              <h3>Catch the bright stuff. Dodge the rocks.</h3>
+              <p>Higher-tier gems score more, hearts restore a life, and every unshielded rock hit costs one.</p>
             </article>
 
-            <article class="feature-card feature-daily reveal">
-              <div class="calendar-icon" aria-hidden="true"><span>24</span></div>
-              <span class="feature-tag">Daily challenge</span>
-              <h3>A fresh run every day</h3>
-              <p>Return to a daily seeded challenge and try to beat your own best score.</p>
+            <article class="feature-card feature-worlds reveal">
+              <div class="world-count" aria-hidden="true"><span>4</span></div>
+              <span class="feature-tag">Unlockable environments</span>
+              <h3>Four worlds. Four score chases.</h3>
+              <p>Progress from Crystal Cave to Jungle Falls, Deep Space, and Bay Lookout.</p>
             </article>
 
             <article class="feature-card feature-card-wide feature-power reveal reveal-delay-short">
               <div class="power-art" aria-hidden="true">
-                <span class="power-pill">WIDE</span>
+                <span class="power-pill">MAGNET</span>
                 <span class="power-pill">SHIELD</span>
-                <span class="power-pill">2x SCORE</span>
+                <span class="power-pill">DICE / SWAP</span>
+                <span class="power-pill">MASTER GEM</span>
               </div>
               <div class="feature-copy">
-                <span class="feature-tag">Power-ups</span>
-                <h3>Turn one catch into an advantage</h3>
-                <p>Widen the catcher, guard your streak with a shield, or double the points until your next miss.</p>
+                <span class="feature-tag">Rush power-ups</span>
+                <h3>Change the odds while the rocks keep falling.</h3>
+                <p>Pull gems closer, block a hit, swap rocks and gems, or turn collisions into points.</p>
               </div>
             </article>
           </div>
@@ -243,21 +248,21 @@
               loading="lazy"
             >
             <div class="world-score">
-              <span>Milestone</span>
-              <strong>2,500</strong>
+              <span>Next key</span>
+              <strong>100</strong>
             </div>
           </div>
           <div class="world-copy reveal reveal-delay-short">
-            <p class="eyebrow eyebrow-dark">The run keeps evolving</p>
-            <h2>Faster gems.<br>Smaller targets.<br><span>Bigger scores.</span></h2>
+            <p class="eyebrow eyebrow-dark">Four worlds to unlock</p>
+            <h2>New scenery.<br>New gems.<br><span>Higher values.</span></h2>
             <p>
-              The challenge ramps as your score climbs. Gems speed up, targets
-              shrink, and milestone rewards give you a reason to chase one more catch.
+              Crystal Cave starts open. Score 100 points and catch the key to
+              unlock the next environment, then keep progressing world by world.
             </p>
             <ul class="check-list">
-              <li><span aria-hidden="true">+</span> Milestone rewards at major score thresholds</li>
-              <li><span aria-hidden="true">+</span> Bonus lives from progress and heart gems</li>
-              <li><span aria-hidden="true">+</span> Pick-up-and-play controls designed for mobile</li>
+              <li><span aria-hidden="true">+</span> Catch each level key to unlock the next world</li>
+              <li><span aria-hidden="true">+</span> Discover more valuable gem tiers as you progress</li>
+              <li><span aria-hidden="true">+</span> Spend run points on Catchy skins and wearables</li>
             </ul>
           </div>
         </div>
@@ -268,7 +273,7 @@
           <div class="section-heading section-heading-centered reveal">
             <p class="eyebrow">First look</p>
             <h2>Your next run is <span>almost here.</span></h2>
-            <p>These frames show in-game environments. Final gameplay screenshots will be added before launch.</p>
+            <p>These frames show Rush environments. Final gameplay captures will replace them before launch.</p>
           </div>
 
           <div class="preview-grid">
@@ -283,7 +288,7 @@
                 >
                 <span class="preview-placeholder">Gameplay screenshot coming soon</span>
               </div>
-              <figcaption><span>Capture slot 01</span>Main menu</figcaption>
+              <figcaption><span>Capture slot 01</span>Crystal Cave opening wave</figcaption>
             </figure>
             <figure class="preview-card preview-card-raised reveal reveal-delay-short">
               <div class="preview-phone">
@@ -296,7 +301,7 @@
                 >
                 <span class="preview-placeholder">Gameplay screenshot coming soon</span>
               </div>
-              <figcaption><span>Capture slot 02</span>Run in progress</figcaption>
+              <figcaption><span>Capture slot 02</span>Rock-wave safe gap</figcaption>
             </figure>
             <figure class="preview-card reveal reveal-delay">
               <div class="preview-phone">
@@ -309,7 +314,7 @@
                 >
                 <span class="preview-placeholder">Gameplay screenshot coming soon</span>
               </div>
-              <figcaption><span>Capture slot 03</span>Daily challenge</figcaption>
+              <figcaption><span>Capture slot 03</span>Level key and power-up</figcaption>
             </figure>
           </div>
         </div>
