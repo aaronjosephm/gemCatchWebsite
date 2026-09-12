@@ -1497,32 +1497,6 @@ h3 {
   font-weight: 750;
 }
 
-.publication-notice {
-  padding: 21px;
-  margin-bottom: 25px;
-  border: 1px solid #f0a500;
-  border-radius: var(--radius-sm);
-  background: #fff7dc;
-  color: #693b00;
-}
-
-.publication-notice strong {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 1.05rem;
-}
-
-.publication-notice p {
-  margin: 0;
-  color: #724700;
-  font-size: 0.9rem;
-  line-height: 1.65;
-}
-
-.publication-notice code {
-  font-weight: 800;
-}
-
 .policy-disclaimer {
   padding-top: 22px;
   color: #78819d;
