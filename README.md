@@ -43,8 +43,6 @@ Search the project for `OWNER_TODO` and replace the related placeholder values:
 
 1. Verified Google Play and App Store URLs. Replace each disabled store button
    with an anchor using the real URL; do not use a placeholder `href`.
-2. A final Crystal Cave or Jungle Falls gameplay screenshot for the remaining
-   preview placeholder.
 
 The privacy policy should also be reviewed against the SDKs and settings in the
 exact mobile build submitted to each store.
