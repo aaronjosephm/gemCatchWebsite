@@ -63,7 +63,7 @@
             </div>
             <div>
               <dt>Effective date</dt>
-              <dd><time datetime="2026-09-13">September 13, 2026</time></dd>
+              <dd><time datetime="2026-09-14">September 14, 2026</time></dd>
             </div>
           </dl>
         </div>
@@ -99,7 +99,7 @@
               <li>Users select either Under 16 or 16+ so the game can apply the appropriate privacy and advertising flow.</li>
               <li>Google AdMob may process device and advertising data when ads are enabled.</li>
               <li>The launch version does not offer Remove Ads, Restore Purchases, or another in-app purchase.</li>
-              <li>We do not sell your personal data.</li>
+              <li>We do not sell personal data for money. Some laws may define personalized advertising as "sharing"; eligible users can opt out through the privacy choices presented in the game.</li>
             </ul>
           </section>
 
@@ -155,13 +155,17 @@
               <li>Your high score.</li>
               <li>Your daily-challenge progress and current daily best score.</li>
               <li>Audio preferences and other gameplay settings.</li>
-              <li>Your consent and privacy-choice status where required.</li>
             </ul>
             <p>
-              This game data remains on your device. You can clear it by
-              uninstalling Gem Catch or clearing the app's data in your device
-              settings. Clearing this data may cause the game to ask for your
-              age band and privacy choices again.
+              Separately, Google's UMP SDK stores consent and privacy-choice
+              state in the platform app storage it manages. Gem Catch does not
+              store that UMP state in Unity PlayerPrefs.
+            </p>
+            <p>
+              This locally stored information remains on your device. You can
+              clear it by uninstalling Gem Catch or clearing the app's data in
+              your device settings. Clearing app data may cause the game to ask
+              for your age band and privacy choices again.
             </p>
           </section>
 
